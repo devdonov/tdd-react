@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import ReactTestUtils from "react-dom/test-utils";
 import { Appointment, AppointmentsDayView } from "../src/AppointmentsDayView";
-import { createContainer } from "./domManipulaters";
 
 describe('Appointment', () => {
   let container, customer;
